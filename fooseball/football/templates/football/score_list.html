@@ -1,0 +1,9 @@
+
+{% block content %}
+<h1>Welcome to Husker suckfest, guess your Husker score!</h1>
+<a href="new_score"><button>Add your score</button></a>
+{% for x in object_list %}
+    <p>{{x.name}}</p>
+    <p>{{x.score1}} | {{x.score2}}</p>
+{% endfor %}
+{% endblock %}
