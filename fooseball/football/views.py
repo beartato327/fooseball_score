@@ -10,4 +10,4 @@ class ScoreListView(ListView):
 class ScoreCreateView(CreateView):
     model = Score
     fields = ['name', 'score1','score2']
-    success_url = '/football/scores'
+    success_url = '/'
